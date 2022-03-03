@@ -13,3 +13,4 @@ Example: 11:30:00-2:00:00-menu.jpg
 - Pull images/videos from files inside respective folders
 - Loop images on timer depending on real life time
 - Functional Calendar Input
+- Trivia Fridays
