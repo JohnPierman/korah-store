@@ -1,0 +1,5 @@
+﻿namespace FileViewer {
+    class FileOpener {
+    
+    }
+}
