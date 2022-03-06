@@ -7,11 +7,11 @@ File Name Format: *start time(HH:MM:SS)*-*end time(HH:MM:SS)*-*name of file*.*ex
 Example: 11:30:00-2:00:00-menu.jpg
 
 ## Schedule Format
-1. Download Template File
-2. Fill in cells with proper information and structure:
-Date: *Weekday*
-Time: *HH:MM:SS*
-File Destination: *Folder\File.extension*
+1. Download Template File\
+2. Fill in cells with proper information and structure:\
+Date: *Weekday*\
+Time: *HH:MM:SS*\
+File Destination: *Folder\File.extension*\
 Monitor Selection: Seperate monitors with periods i.e: *1* or *1.2.3* or *1.3*
 
 ## Features
