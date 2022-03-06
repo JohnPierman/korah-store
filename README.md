@@ -7,7 +7,9 @@ File Name Format: *start time(HH:MM:SS)*-*end time(HH:MM:SS)*-*name of file*.*ex
 Example: 11:30:00-2:00:00-menu.jpg
 
 ## Schedule Format
-Coming very soon
+https://docs.google.com/spreadsheets/d/e/2PACX-1vS6QBY7sFbGQQlykse5XVfIf0a4STbQ0Zg7ij9w6DOwl34lK-4I9iqF9A3T9bh-Q6CVJmiKKLCiNaky/pubhtml
+
+Create a copy of this template and fill each section. Export the spreadsheet as a .csv (comma seperated) file to use.
 
 ## Features
 ### Implemented
