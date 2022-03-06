@@ -7,9 +7,12 @@ File Name Format: *start time(HH:MM:SS)*-*end time(HH:MM:SS)*-*name of file*.*ex
 Example: 11:30:00-2:00:00-menu.jpg
 
 ## Schedule Format
-https://docs.google.com/spreadsheets/d/e/2PACX-1vS6QBY7sFbGQQlykse5XVfIf0a4STbQ0Zg7ij9w6DOwl34lK-4I9iqF9A3T9bh-Q6CVJmiKKLCiNaky/pubhtml
-
-Create a copy of this template and fill each section. Export the spreadsheet as a .csv (comma seperated) file to use.
+1. Download Template File
+2. Fill in cells with proper information and structure:
+Date: *Weekday*
+Time: *HH:MM:SS*
+File Destination: *Folder\File.extension*
+Monitor Selection: Seperate monitors with periods i.e: *1* or *1.2.3* or *1.3*
 
 ## Features
 ### Implemented
