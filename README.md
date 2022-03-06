@@ -13,7 +13,8 @@ Date: *Weekday*\
 Time: *HH:MM:SS*\
 File Destination: *Folder\File.extension*\
 Monitor Selection: Seperate monitors with periods i.e: *1* or *1.2.3* or *1.3*
-
+3. Export as a .csv (comma seperated) file
+4. Place csv file in schedule folder on Pi
 ## Features
 ### Implemented
 
