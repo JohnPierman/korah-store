@@ -6,6 +6,9 @@ Acceptable Files include: .jpg, .png, .mp4\
 File Name Format: *start time(HH:MM:SS)*-*end time(HH:MM:SS)*-*name of file*.*extension*\
 Example: 11:30:00-2:00:00-menu.jpg
 
+## Schedule Format
+Coming very soon
+
 ## Features
 ### Implemented
 
