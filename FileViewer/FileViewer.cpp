@@ -5,7 +5,7 @@ Download OpenCV
 #include <iostream>
 #include <fstream>
 #include <string>
-//#include <opencv2/opencv.hpp>
+#include <opencv2/opencv.hpp>
 using namespace std;
 //using namespace cv;
 namespace FileViewer {
