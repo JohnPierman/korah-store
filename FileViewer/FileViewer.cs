@@ -5,20 +5,21 @@ using System.Drawing;
 
 class scheduleReader{
 static void Main(){
-    imagesList = ScheduleReader();
+    Schedule[] imagesList = ScheduleReader();
+    FileCompletion(imagesList);
     Console.ReadLine();
     }
 
-static async bool FileViewer(Schedule imageData){
-    string monitorSelection = imageData.monitorSelection.Split('.');
+static async Task FileViewer(Schedule imageData){
+    string[] monitorSelection = imageData.monitorSelection.Split('.');
     string date = imageData.date;
     string startTimeData = imageData.timeStart + ":00";
     string endTimeData = imageData.timeEnd + ":00";
     DateTime timeStart = Convert.ToDateTime(startTimeData);
     DateTime timeEnd = Convert.ToDateTime(endTimeData);
     int[] monitors = new int[monitorSelection.Length];
-    foreach(int i in monitorSelection){
-        monitors[i] = monitorSelection[i];
+    for(int i = 0; i < monitorSelection.Length; i++){
+        monitors[i] = Convert.ToInt32(monitorSelection[i]);
     }
     while(DateTime.Now != timeStart){
         //wait 1 minute
@@ -37,10 +38,10 @@ static async bool FileViewer(Schedule imageData){
     }
 }
 
-static async Task FileCompletion(Schedule[] imagesList){
+static async void FileCompletion(Schedule[] imagesList){
     bool[] boolImagesList = new bool[imagesList.Length];
     for(int i = 0; i < imagesList.Length; i++){
-        await boolImagesList = FileViewer(imagesList[i]);
+        boolImagesList = FileViewer(imagesList[i]);
         }
 }
 
