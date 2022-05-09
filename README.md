@@ -3,14 +3,14 @@ Welcome to the Repository for the Korah Store technology. This is the place to f
 
 ## RaspPi File Format
 Acceptable Files include: .jpg, .png, .mp4\
-File Name Format: *start time(HH:MM:SS)*-*end time(HH:MM:SS)*-*name of file*.*extension*\
-Example: 11:30:00-2:00:00-menu.jpg
+File Name Format: *start time(HH:MM)*-*end time(HH:MM:SS)*-*name of file*.*extension*\
+Example: 11:30-2:00-menu.jpg
 
 ## Schedule Format
 1. Download Template File
 2. Fill in cells with proper information and structure:\
 Date: *Weekday*\
-Time: *HH:MM:SS*\
+Time: *HH:MM*\
 File Destination: *Folder\File.extension*\
 Monitor Selection: Seperate monitors with periods i.e: *1* or *1.2.3* or *1.3*
 3. Export as a .csv (comma seperated) file
